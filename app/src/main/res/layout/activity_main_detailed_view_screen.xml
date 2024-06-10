@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#75CFF8"
+    tools:context=".MainActivity_DetailedViewScreen">
+
+
+    <TextView
+        android:id="@+id/welcomeTitleTextView"
+        android:layout_width="375dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="10dp"
+        android:text="This Week's Weather Conditions"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextSizeCheck" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="381dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="211dp"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toTopOf="@+id/returnButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeTitleTextView"
+        tools:ignore="MissingConstraints,TextSizeCheck">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Day" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Min"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Max"
+                tools:ignore="RtlHardcoded" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Weather Condition"
+                tools:ignore="RtlHardcoded" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Monday" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="12" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="25" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Sunny" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Tuesday" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="15" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="29" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Sunny" />
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Wednesday" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="9" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="18" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Windy" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Thursday" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="8" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="11" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Cloudy" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="66dp">
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Friday" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="12" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="15" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Windy" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="136dp"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Saturday" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="10" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="18" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Raining" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Sunday" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="10" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="16" />
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Cold" />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <Button
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="154dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="66dp"
+        android:text="Return"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,17 +1,18 @@
 # ST10438463_IMAD5112_PracticumExam
 Didintle Nayang Baloyi 
 
-The 2 main purposes of the app is to provide the user with each day's weather forecasts predictions which will include:​
+The main purpose of the app is to provide the user with each day's weather forecasts predictions which will include:​
 The highest temperature of the day.
 The lowest temperature of the day.
 What the weather conditions will be like that day. ​
 
-The second is that the user should be able to: ​
+The app is used to allow the user to: ​
 Navigate from the splash screen to the main screen or to exit the app, from the main screen to the detailed view screen or back to the splash screen, from the detailed view screen to the main screen or exit the app with a click of the different designed buttons.​
 Be able to have the option to re-input data should their previous input/s be incorrect.​
 Navigate through the app as it should be a user friendly design for the user​
 
 https://advtechonline-my.sharepoint.com/:p:/g/personal/st10438463_vcconnect_edu_za/EReeKG_XMZNLs3vnEYBeSZoBNcbYYgj0oFnNXRn_UM3vLw?e=kbhXyt
+
 
 Pseudocode for detailed view screen main activity:
 start 

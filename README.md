@@ -11,6 +11,8 @@ Navigate from the splash screen to the main screen or to exit the app, from the 
 Be able to have the option to re-input data should their previous input/s be incorrect.​
 Navigate through the app as it should be a user friendly design for the user​
 
+https://advtechonline-my.sharepoint.com/:p:/g/personal/st10438463_vcconnect_edu_za/EReeKG_XMZNLs3vnEYBeSZoBNcbYYgj0oFnNXRn_UM3vLw?e=kbhXyt
+
 Pseudocode for detailed view screen main activity:
 start 
   Declarations 
@@ -24,4 +26,5 @@ start
        daysDisplay <= day(count) 
     else 
        inCount +1
+
       

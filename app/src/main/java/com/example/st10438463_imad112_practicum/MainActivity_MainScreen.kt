@@ -8,6 +8,9 @@ import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
+
+
+@Suppress("NAME_SHADOWING")
 class MainActivity_SecondPage : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -99,8 +102,18 @@ class MainActivity_SecondPage : AppCompatActivity() {
             118 / 7
         16.85.also { averageOfMaxTemperature = maxTemperatureArray }
 
+
+        for (
+        counter in 0 to 6)
+            averageOfMaxTemperature = averageOfMaxTemperature / 6
+
+
+
+        }
     }
 
-}
+private operator fun <E> ArrayList<E>.div(i: Int): ArrayList<E> {}
+
+
 
 
